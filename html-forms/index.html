@@ -8,13 +8,13 @@
 <body>
   <h1>Coding Form!</h1>
   <form action="https://example.com/">
-    <p>Email
+
+    <label for="email">Email</label>
     <div>
       <input type="text" name="email" id="email">
-      <label for="email"></label>
     </div>
-    
-    <p>Why is coding cool?
+
+    <p>Why is coding cool?</p>
     <div>
       <select name="opinion">
         <option value="Select">Select an Option</option>
@@ -23,8 +23,8 @@
         <option value="powerful">Because it's cool</option>
       </select>
     </div>
-    
-    <p>Favorite language(choose one)
+
+    <p>Favorite language(choose one)</p>
     <div>
       <input type="radio" name="language" value="HTML" id="HTML" />
       <label for="HTML">HTML</label>
@@ -33,23 +33,20 @@
       <input type="radio" name="language" value="Javascript" id="Javascript" />
       <label for="Javascript">Javascript</label>
     </div>
-    
 
-    <p>Would you like to sign up for more information?
+
+    <p>Would you like to sign up for more information?</p>
     <div>
       <input type="checkbox" name="email" value="Sign me up" id="Sign me up" />
       <label for="Sign me up">Sign me up!</label>
     </div>
-    
 
-    <p>Comments
+
+    <label for="comments">Comments</label>
     <div>
-      <textarea name="comments" cols="30" rows="15">  </textarea>
+      <textarea name="comments" cols="30" rows="15" id="comments"></textarea>
     </div>
-    
-
-
-
+    <input type="Submit" value="Submit" />
   </form>
 
 </body>
