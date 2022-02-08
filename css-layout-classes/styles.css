@@ -1,0 +1,21 @@
+.row {
+  width: 992px;
+  margin: auto;
+  display: flex;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+}
+
+.column-two-thirds {
+  flex-basis: calc(2 * 100% / 3);
+}
+
+.size {
+  width: 100%;
+}
