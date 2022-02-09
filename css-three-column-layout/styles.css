@@ -1,9 +1,12 @@
 body {
   background-color: rgb(48 180 241);
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.row {
-  width: 992px;
+.container {
+  max-width: 992px;
   margin: auto;
   display: flex;
   padding: 0.5rem;
