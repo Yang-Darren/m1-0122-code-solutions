@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(48 180 241);
+}
+
+.row {
+  width: 992px;
+  margin: auto;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+  margin: 20px;
+}
+
+.text {
+  color: white;
+  text-align: center;
+}
+
+.circle {
+  display: flex;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  color: white;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.size {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+h3 {
+  font-size: 20px;
+}
