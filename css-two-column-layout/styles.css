@@ -1,0 +1,53 @@
+body {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 992px;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-color: rgb(223 24 24));
+  border: solid;
+  color: rgb(223 24 24);
+  background-color: white;
+  padding: 10px 20px;
+  border-width: 1px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 60px;
+  margin: 2rem auto 0;
+}
+
+.title {
+  max-width: 650px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.learnmore {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border-color: rgb(223 24 24));
+  border: solid;
+  color: rgb(223 24 24);
+  background-color: white;
+  padding: 10px 20px;
+  border-width: 1px;
+}
