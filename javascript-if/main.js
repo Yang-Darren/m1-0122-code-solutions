@@ -9,41 +9,41 @@
  */
 function isUnderFive(number) {
   if (number < 5) {
-    return 'true';
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
 function isEven(number) {
   if (number % 2 === 0) {
-    return 'true';
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
 function startsWithJ(string) {
   if (string[0] === 'J') {
-    return 'true';
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
 function isOldEnoughToDrink(person) {
   if (person.age >= 21) {
-    return 'true';
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
 function isOldEnoughToDrive(person) {
   if (person.age >= 16) {
-    return 'true';
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
