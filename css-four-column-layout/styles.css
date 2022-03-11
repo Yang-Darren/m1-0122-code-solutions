@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: Barlow, sans-serif;
+  font-weight: bold;
+}
+
+.icon {
+  max-width: 100px;
+  margin: auto;
+  justify-content: center;
+}
+
+.text {
+  font-family: Barlow, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.container {
+  padding: 1rem 8rem;
+  background-color: rgb(245 245 245);
+}
+
+p {
+  font-size: 90%;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 100%;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: Barlow, sans-serif;
+}
