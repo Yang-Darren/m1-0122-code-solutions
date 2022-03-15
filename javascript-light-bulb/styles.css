@@ -1,0 +1,33 @@
+.container {
+  margin: 0;
+  width: 100%;
+  padding: 200px;
+  background-color: rgb(251 247 234);
+}
+
+.bulb {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  background-color: rgb(255 223 128);
+  box-shadow: 0 0 15px 15px rgb(255 236 182);
+}
+
+.container.on {
+  background-color: rgb(251 247 234);
+}
+
+.bulb.on {
+  background-color: rgb(255 223 128);
+  box-shadow: 0 0 20px 20px rgb(255 236 182);
+}
+
+.container.off {
+  background-color: rgb(17 16 16);
+}
+
+.bulb.off {
+  background-color: rgb(37 36 36);
+  box-shadow: 0 0 20px 20px rgb(19 18 18);
+}
