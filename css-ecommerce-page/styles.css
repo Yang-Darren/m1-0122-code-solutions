@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  margin: 0 4rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 175%;
+  margin: 1rem;
+  text-align: center;
+}
+
+#container {
+  margin: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.one-fifth {
+  flex-basis: 20%;
+  padding: 0.5rem;
+}
+
+.product {
+  height: 350px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.product img {
+  height: 100%;
+}
+
+.new-price {
+  background-color: rgb(255 229 206);
+}
+
+.title,
+span,
+del {
+  font-weight: bolder;
+}
+
+.gray-font {
+  color: rgb(221 216 216);
+}
